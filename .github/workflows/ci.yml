@@ -1,6 +1,9 @@
 name: Failure Pipeline
 
-on: push
+on:
+  push:
+    branches:
+      - ci-test
 
 jobs:
   fail-job:
